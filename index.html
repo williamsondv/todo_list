@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class ="flex">
+      <p>To Do</p>
+      <form id="taskForm">
+        <label for="taskName">Task Name:</label>
+        <input type="text" id="taskName" name="task_name" value="New Task" />
+        <div>
+          <label for="slider">Task Priority:</label>
+          <input type="range" min="1" max="10" value="1" id="slider" />
+          <span id="sliderValue">1</span>
+        </div>
+        <div> 
+        </div>
+      </form>
+      <input type="button" id="submitButton" name="submit_button" value="Add Task"></input>
+    <div class="listDiv">
+      <ul priority="1" class="flexList"></ul>
+      <ul priority="2" class="flexList"></ul>
+      <ul priority="3" class="flexList"></ul>
+      <ul priority="4" class="flexList"></ul>
+      <ul priority="5" class="flexList"></ul>
+      <ul priority="6" class="flexList"></ul>
+      <ul priority="7" class="flexList"></ul>
+      <ul priority="8" class="flexList"></ul>
+      <ul priority="9" class="flexList"></ul>
+      <ul priority="10" class="flexList"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

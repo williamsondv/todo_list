@@ -1,0 +1,61 @@
+body {
+  color: white;
+  font-family: Inter, monospace;
+  background: linear-gradient(to bottom right, #3729f7 0%, #eff151 100%) 100%
+    no-repeat;
+  min-height: 100vh;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#submitButton {
+  background-color: rgb(6, 66, 126);
+  border-radius: 100px;
+  color: white;
+  border-width: 0.25px;
+}
+
+#slider {
+  accent-color: rgbargb(6, 66, 126);
+}
+
+.removeButton {
+  background-color: rgb(6, 66, 126);
+  border-radius: 100px;
+  color: white;
+  border-width: 0.25px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexList {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#taskName {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgb(6, 66, 126);
+  font-family: Inter, monospace;
+}
+
+.listDiv {
+  margin-top: 5px;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+}
